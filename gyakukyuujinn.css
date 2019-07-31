@@ -1,0 +1,157 @@
+
+
+.nav li a{
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav li {
+    float: left;
+    width: 20%;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li :hover {
+    opacity: 0.7;
+}
+
+/* ここから　top-wrapper */
+
+body{
+    background-color: rgb(233, 229, 229)
+}
+
+.top-wrapper {
+    padding: 180px 0 180px 0;
+    background-color: gray;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    width:100%;
+    background-size: cover;
+}
+
+
+
+
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* ここから　profile-wrapper */
+
+.profile-image {
+    float:left;
+    width:50%;
+}
+
+.profile-wrapper {
+    text-align: center;
+    height:600px
+    padding-bottom: 80px;
+    display:inline-block;
+    width:100%;
+}
+
+.heading {
+    padding-top:60px;
+    padding-bottom 3;0px
+    color:black;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.profile-text {
+    float: left;
+    width: 50%;
+}
+
+.profile-image img {
+    width: 300px;
+    height: 300px;
+}
+
+.profile h3 {
+    margin-top:30px;
+    margin-bottom: 25px;
+}
+
+
+/* ここからachievement-wrapper */
+
+.achievement-wrapper {
+    height:200px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* ここから　hobby-wrapper */
+
+.hobby-contents img {
+    margin:20px auto 45px auto;
+    display: block;
+}
+
+.hobby-contents p {
+    text-align: center;
+    margin-top:20px;
+}
+
+.hobby-contents a {
+    text-align: center;
+    display: block;
+}
+
+.hobby-wrapper {
+    height:800px;
+    width: 100%;
+}
+
+/* ここから sns-wrapper */
+
+.timeline {
+    margin:0 auto; 
+    text-align: center;
+}
+
+/* ここから　message-wrapper */
+
+.form {
+    text-align: center;
+    height: 400px;
+}
+
+.submit {
+    display: block;
+    margin: 10px auto;
+}
+
+.form textarea {
+    display: block;
+    margin: 15px auto;
+    width:500px;
+}
+
+.adress {
+    width:500px;
+}

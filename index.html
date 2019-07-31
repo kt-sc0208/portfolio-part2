@@ -1,0 +1,124 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charaset="utf-8">
+        <title>Kazuki Tajima の逆求人サイト</title>
+        <link rel="stylesheet" href="gyakukyuujinn.css">
+    </head>
+        <header>
+            <div class="container">
+                <ul class="nav">
+                    <li>
+                        <a href="#profile">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#achievement">Achievement</a>
+                    </li>
+                    <li>
+                        <a href="#hobby">My Interest</a>
+                    </li>
+                    <li>
+                        <a href="#sns">SNS</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="top-wrapper">
+            <div class="container">
+                <h1>Kazuki Tajima</h1>
+                <h2>Would you work with me?</h2>
+                <h3>Kyoto University , Fuculty of Science , Student</h3>
+        </div>
+        <div class="profile-wrapper" id="profile">
+            <div class="container">
+                <div class="heading">
+                    <h2>Profile</h2>
+                </div>
+                <div class="profile">
+                    <div class="profile-image">
+                        <h2>Kazuki Tajima</h2>
+                        <p>田島　一毅</p>
+                        <img src="image/profile.png">
+                    </div>
+                    <div class="profile-text">
+                        <h3>-Education Experience-</h3>
+                        <p>2014-2017 Tochigi High School, Tochigi, Japan</p>
+                        <p>2018-Present Kyoto University, Kyoto, Japan</p>
+                        <p>Major: Physics</p>
+                        <h3>-Work Experience-</h3>
+                        <p>May.2018-Aug.2018  Cram School Teacher (part-time)</p>
+                        <p>May.2018-Aug.2018  Private Teacher (part-time)</p>
+                        <p>Sep.2018-Mar.2019  Hall Staff At Italian Restaurant (part-time)</p>
+                        <p>May.2019-Present  Web Marketer At Miraidenshi Technology (internship)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="achievement-wrapper" id="achievement">
+            <div class="container">
+                <div class="heading">
+                    <h2>Achievement</h2>
+                </div>
+                <div class="achievement-list">
+                    <p>I'm studying progmaming and I'll make some achievements.</p>
+                </div>
+            </div>
+        </div>
+        <div class="hobby-wrapper" id="hobby">
+            <div class="container">
+                <div class="heading">
+                    <h2>My Interest</h2>
+                </div>
+                <div class="hobby-contents">
+                    <p>I'm interested in traveling.</p>
+                    <p>Please click the picture below.</p>
+                    <img id="mypic" onclick="slideshow()" src="image/pic1.jpg" width="400" height="300">
+                 <script>
+                    var pics_src = new Array("image/pic1.jpg","image/pic2.jpg","image/pic3.jpg");
+                    var num = 0;
+ 
+                    function slideshow(){
+                    if (num == 2) {
+                        num = 0;
+                    }
+                    else {
+                        num ++;
+                    }
+                    document.getElementById("mypic").src=pics_src[num];
+                    }
+                 </script>
+                 <p>I'm a member of Yoichi Ochiai's online salon, "Ochiai Yoichi Juku".</p>
+                 <p>I communicate with many people in this salon, and I share my own opinions on Twitter.</p>
+                 <a href="https://lounge.dmm.com/detail/48/">About</a>
+                </div>
+            </div>
+        </div>
+        <div class="sns-wrapper" id="sns">
+            <div class="container">
+                <div class="heading">
+                    <h2>SNS</h2>
+                </div>
+                <div class="timeline"> 
+                 <a class="twitter-timeline" data-width="400" data-height="400" href="https://twitter.com/kyoto_program?ref_src=twsrc%5Etfw">Tweets by kyoto_program</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+        <div class="message-wrapper" id="contact">
+            <div class="container">
+                <div class="heading">
+                    <h2>Contact</h2>
+                </div>
+                <div class="form">
+                    <p>EMAIL Adress</p>
+                    <input type="text" class="adress">
+                    <p>Details</p>
+                    <textarea rows="10"></textarea>
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
